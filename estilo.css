@@ -1,18 +1,22 @@
+
+/*
+MEU CÓDIGO PARA COMPARAÇÃO
+problema 1: todo o código foi alinhado para com centro com text-align, com exceção dos .card.
+
 body {
     background-color: hsl(254, 67%, 15%);
     color: white;
-    text-align: center;
 }
 
 .cards {
     display: grid;
-    row-gap: 1rem; /*Used by browsers that support `row-gap`*/
+    row-gap: 1rem; Used by browsers that support `row-gap`
  
 
 }
 
 .card {
-    width: 400px;
+    width: 375px;
     height: 40px;
     padding-top: 20px;
     border-radius: 6px;
@@ -29,6 +33,10 @@ a {
     color: white;
 }
 
-.card a:hover {
+.card:hover {
     background-color: hsl(236, 71%, 50%);
 }
+
+
+*/
+

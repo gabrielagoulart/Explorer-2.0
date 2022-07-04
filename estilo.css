@@ -1,0 +1,34 @@
+body {
+    background-color: hsl(254, 67%, 15%);
+    color: white;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    row-gap: 1rem; /*Used by browsers that support `row-gap`*/
+ 
+
+}
+
+.card {
+    width: 400px;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 6px;
+
+    text-align: center;
+
+
+    background-color: hsl(236, 81%, 59%);
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.card a:hover {
+    background-color: hsl(236, 71%, 50%);
+}

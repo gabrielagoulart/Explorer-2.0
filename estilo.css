@@ -1,3 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(223, 100%, 96%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    margin: 60px auto 0px;
+}
+
+img {
+    width: 100%; 
+}
+
+img.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3.7px;
+    border: hsl(228, 81%, 59%) solid 4px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #00082F;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.username {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: #00082F;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    margin: 48px 0;
+}
+
+ul li a {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsla(228, 81%, 59%, 1);
+    ;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    margin-bottom: 16px;
+    border-radius: 6px;
+
+    transition: background 400ms;
+}
+
+ul li a:hover {
+    background-color: hsl(230, 57%, 50%);
+}
+
+footer {
+    font-weight: 500;
+    font-size: 12px;
+    color: #00082F;
+    opacity: 0.6;
+
+    transition: opacity 400ms;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+footer a {
+    color: #00082F;
+}
+
+/*
+MEU CÓDIGO 2.0
+Problema 1: a foto e os textos não esão alinhando com as redes sociais. Nota-se um PEQUENA diferença.
+
+
+body {
+    background-color:  hsl(254, 67%, 15%);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul li.media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    width: 300px;
+    height: 53px;
+
+    background-color: hsl(228, 81%, 59%);
+    ;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+a {
+    color: white;
+}
+
+img {
+    clip-path: circle(40%);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+*/
+
 
 /*
 MEU CÓDIGO PARA COMPARAÇÃO
